@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+<section class="contact" id="contact">
+
+    <div class="formulario">
+        <form action="conexion.php" method="post" class="form">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="box" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="box" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="form-group">
+                <label for="numero">Número:</label>
+                <input type="tel" id="numero" name="numero" class="box" placeholder="Tu número de teléfono" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" class="box" placeholder="Escribe tu mensaje aquí" required></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar Mensaje</button>
+        
+            <body style="background-image: url('fondo52.jpeg'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;"></body>
+        </form>
+        
+    </div>
+</section>
+
+</body>
+</html>
+
